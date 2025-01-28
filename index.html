@@ -41,10 +41,10 @@
     <!-- Header Section Start -->
     <header class="max-w-6xl mx-auto p-4">
       <!-- Navbar Start -->
-      <nav class="navbar bg-base-100 text-black">
-        <div class="max-sm:w-full">
-          <!-- Navbar Dropdown -->
-          <div class="dropdown sm:hidden">
+      <nav class="navbar bg-base-100 text-black flex justify-between">
+        <!-- Navbar Dropdown -->
+        <div class="sm:hidden">
+          <div class="dropdown">
             <!-- Checkbox to toggle the dropdown -->
             <input type="checkbox" id="dropdownToggle" class="hidden peer" />
 
@@ -82,21 +82,20 @@
               <li><a href="#">Contact</a></li>
             </ul>
           </div>
-          <!-- Navbar Title -->
-          <a class="btn btn-ghost text-xl md:text-3xl font-bold max-sm:ml-auto"
-            >Bike Dekho</a
-          >
         </div>
 
+        <!-- Navbar Title -->
+        <a href="#" class="text-xl md:text-3xl font-bold">Bike Dekho</a>
+
         <!-- Navbar Menu -->
-        <div class="ml-auto max-sm:hidden">
-          <ul class="menu menu-horizontal px-1">
+        <div class="max-sm:hidden">
+          <ul class="menu menu-horizontal">
             <li><a href="#">Home</a></li>
             <li><a href="#">Shop</a></li>
             <li><a href="#">News</a></li>
             <li><a href="#">Contact</a></li>
           </ul>
-          <a class="btn px-8 bg-[#E76F51] text-white rounded-md mx-4">Login</a>
+          <a class="btn px-8 bg-[#E76F51] text-white rounded-md">Login</a>
         </div>
       </nav>
 

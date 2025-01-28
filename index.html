@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <!-- Meta Information -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Title and Favicon -->
+    <title>Biker Zone</title>
+    <link
+      rel="shortcut icon"
+      href="images/icons/favicon.png"
+      type="image/x-icon"
+    />
+
+    <!-- Google Fotns CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- daisyUI and Tailwaind CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Custom CSS -->
+    <style>
+      .poppins-font {
+        font-family: 'Poppins', serif;
+      }
+    </style>
+  </head>
+
+  <body class="poppins-font">
+    <!-- Header Section Start -->
+    <header class="max-w-6xl mx-auto p-4">
+      <!-- Navbar Start -->
+      <nav class="navbar bg-base-100">
+        <div class="max-sm:w-full">
+          <!-- Navbar Dropsown -->
+          <div class="dropdown sm:hidden">
+              <!-- Checkbox to toggle the dropdown -->
+              <input type="checkbox" id="dropdownToggle" class="hidden peer" />
+
+              <!-- Dropdown button -->
+              <label
+                for="dropdownToggle"
+                tabindex="0"
+                role="button"
+                class="btn btn-ghost"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </label>
+
+              <!-- Dropdown submenu -->
+              <ul
+                tabindex="0"
+                class="menu dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow hidden peer-checked:block"
+              >
+                <li>
+                  <a href="#">Item 1</a></label>
+                </li>
+                <li>
+                  <a href="#">Item 3</a>
+                </li>
+              </ul>
+          </div>
+          <!-- Navbar Title -->
+          <a class="btn btn-ghost text-xl max-sm:ml-auto">Bike Dekho</a>
+        </div>
+
+        <!-- Navbar Menu -->
+        <div class="ml-auto max-sm:hidden">
+            <ul class="menu menu-horizontal px-1">
+              <li><a>Item 1</a></li>
+              <li><a>Item 3</a></li>
+            </ul>
+            <a class="btn">Button</a>
+        </div>
+      </nav>
+
+      <!-- Banner Start -->
+    </header>
+
+    <!-- Main Section Start -->
+    <main></main>
+
+    <!-- Footer Section Start -->
+    <footer></footer>
+  </body>
+</html>
